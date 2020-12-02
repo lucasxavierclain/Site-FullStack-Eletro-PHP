@@ -1,0 +1,77 @@
+
+/* CORPO DO SITE */
+/*  */
+form{
+    margin: 0 auto;
+}
+.container{
+    margin-top: 70px;
+}
+
+.mensagem button:hover{
+    font-size: 22px;
+    padding: 7px 35px;
+}
+
+/* RODAPÉ */
+footer{
+    bottom: 0;
+}
+footer p{
+    font-family: roboto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0;
+}
+.containerGeral{
+    margin: 30px 0 0;
+    display: flex;
+    justify-content: center;
+       
+}
+.containerGeral img{
+    height: 2.6em;
+    
+}
+.redesSociais{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.6em;
+    height:3.6em;
+    border-radius: 50%;
+    margin: 0 1em;
+    transition: all 0.5s;
+}
+.redesSociais:hover{
+    cursor: pointer;
+    transform: translateY(-1em);
+    box-shadow: 0.8em 1em 2.5em black;
+    /* A primeira medida é para sombra para direita, a segunda para baixo. A terceira medida é para colocar o "blur", o efeito de esfumaçado edepois tem a cor. */
+}
+#twitter{
+    background-color: #00acee;
+}
+#youtube{
+    background-color:  #c4302b;
+}
+#facebook{
+    background-color: #3b5998; 
+}
+#facebook img{
+    height: 2em;
+}
+#instagram{
+    background: #e2725b;
+}
+#instagram img{
+    height: 2em;
+}
+
+.formaDePagamento{
+    display: flex;
+    width: 30%;
+    margin: 100px auto 20px;
+}

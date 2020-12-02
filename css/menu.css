@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite ;
+}
+.topo{
+    padding: 30px 0;
+    display: flex;
+}
+.logo{
+    width: 40%;
+    margin-left: 20px;
+}
+#navbarNav{
+    font-family: Roboto;
+    font-size: 1.3em;
+    justify-content: flex-end;
+}
+
+

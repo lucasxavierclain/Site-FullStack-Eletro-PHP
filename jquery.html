@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$("#texto").click(function(){
+  			 	 	$("p").hide();
+                  });
+                  $("#titulo").click(function(){
+  			 	 	$("h2").hide();
+				  });
+				  $("#mostrarTitulo").click(function(){
+  			 	 	$("h2").show();
+				  });
+				  $("#mostrarTexto").click(function(){
+  			 	 	$("p , #esconder").show();
+ 				 });
+				  $("#esconder").click(function(){
+  			 	 	$(this).hide();
+ 				 });
+			});
+		</script>
+	</head>
+	<body>
+		<h2>Titulo da pagina</h2>
+		<p>Primeiro paragrafo</p>
+		<p >Segundo paragrafo</p>
+    <p>Terceiro paragrafo</p>
+
+		<button id="titulo">esconder titulo</button>
+	<button id="texto">esconder texto</button>
+	<button id="mostrarTexto">Mostrar texto</button>
+	<button id="mostrarTitulo">Mostrar Titulo</button>
+	<button id="esconder">Me esconda</button>
+	</body>
+</html>
+
